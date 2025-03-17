@@ -762,3 +762,25 @@ progress {
 .chapterThumbText {
     width: fit-content;
 }
+
+
+
+/* [GerSub] Hervorhebung */
+:root {
+    --gersub-color: gold;
+    --gersub-glow: 0 0 5px gold, 0 0 10px orange;
+}
+
+/* Falls Titel in einem bestimmten Element stehen, kannst du die Klasse anpassen */
+div, span, a {
+    text-transform: none !important;
+}
+
+/* Markiere alle Einträge, die [GerSub] enthalten */
+div:has(:contains("[GerSub]")),
+span:has(:contains("[GerSub]")),
+a:has(:contains("[GerSub]")) {
+    font-weight: bold !important;
+    color: var(--gersub-color) !important;
+    text-shadow: var(--gersub-glow) !important;
+}
