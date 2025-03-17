@@ -4,7 +4,14 @@
     You can grab the base theme by changing jamfin.css to base.css in the first line.
 */
 
+
+@import url("https://cdn.jsdelivr.net/gh/Sopro2015/JamFin-Themen@refs/heads/main/theme/base.css");
+
+/*
+Alte Base
 @import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/base.css");
+*/
+
 @import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/modules/static-sidebar.css");
 @import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/modules/central-libraries-small.css");
 @import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/modules/change-logo.css");
